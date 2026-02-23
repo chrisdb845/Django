@@ -4,8 +4,13 @@ from django.urls import path
 from cartapp import views
 urlpatterns = [
 
-    path('home/', views.index),
-    path('gallery/', views.gallery),
+    path('', views.index, name='index'),
+    path('gallery/', views.gallery, name='gallery'),
+
+     path('services/', views.services),
+
+
+
 ]
 
 

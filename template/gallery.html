@@ -6,11 +6,24 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gallerypage</title>
+    
+    <!---Ginger symbol used when mentioning the static folder-->
+    {% load static %}
+    
+     <link rel="stylesheet" href="{% static 'css/gallery.css' %}">
+
 </head>
 <body>
 
 <h1>Available products</h1>
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet consequuntur delectus deserunt eaque expedita illum inventore maiores odio quidem repellendus sed, soluta voluptas! Commodi itaque neque obcaecati odio qui!</span><span>Autem consectetur, debitis delectus dolores doloribus explicabo illum laboriosam laborum maxime neque nisi nobis nostrum pariatur quam sint sunt suscipit voluptatibus. Debitis error est harum maxime nostrum sequi vero voluptas.</span><span>Consectetur delectus eligendi ipsam laborum natus perferendis quaerat quibusdam repudiandae sunt! Accusantium alias, autem consequuntur dicta dignissimos eligendi enim et, hic impedit minima molestiae odio placeat quas suscipit ut vel!</span><span>Ab aliquam aspernatur aut eius eligendi inventore, libero molestiae nam nemo nihil nisi nostrum numquam, possimus provident quae repudiandae saepe sapiente tempore ullam voluptate? Amet debitis dolore dolorum et perferendis!</span></p>
+
+<img src="{% static 'assets/car1.jpeg'%}" alt="">
+<img src="{% static 'assets/car5.jpeg'%}" alt="">
+<img src="{% static 'assets/car7.jpeg'%}" alt="">
+<img src="{% static 'assets/car6.jpeg'%}" alt="">
+<img src="{% static 'assets/car3.jpeg'%}" alt="">
+<img src="{% static 'assets/car4.jpeg'%}" alt="">
 
 </body>
 </html>
